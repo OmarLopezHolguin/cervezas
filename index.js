@@ -1,7 +1,9 @@
-var cervezas = require('./cervezas.json')
-var uniqueRandomArray = require('unique-random-array')
-
-module.exports = {
-	todas: cervezas,
-	alAzar: uniqueRandomArray(cervezas)
+class Calculator
+{
+    sum($a, $b)
+    {
+        return $a + $b;
+    }
 }
+
+module.exports = {Calculator};
